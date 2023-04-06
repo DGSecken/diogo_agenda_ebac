@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin-top: 80px;
+    background-color: rgba(142, 158, 0, 0.507);
+}
+
+.container {
+    max-width: 620px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+header img {
+    width: 80px;
+    margin-left: 26px;
+}
+
+header h1 {
+    font-size: 55px;
+    font-weight: 700;
+    padding-left: 35px;
+}
+
+form {
+    display: flex;
+    max-width: 620px;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 50px
+}
+
+form input {
+    margin-bottom: 20px;
+    width: 200px;
+    height: 45px;
+    border: none;
+    color: black;
+    font-size: 18px;
+    padding: 8px;
+    border-radius: 10px;
+}
+
+form button {
+    margin-bottom: 20px;
+    width: 200px;
+    height: 45px;
+    border: none;
+    background-color: rgba(87, 97, 0, 0.507);
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    border-radius: 10px;
+}
+
+form button:hover {
+    background-color:rgba(46, 51, 0, 0.507);
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+}
+
+table th {
+    border-bottom: solid black 3px;
+    font-weight: bold;
+    font-size: 28px;
+    padding-bottom: 12px;
+}
+
+table td {
+    text-align: center;
+    font-size: 20px;
+    padding-top: 16px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.233);
+    padding-bottom: 8px;
+}
