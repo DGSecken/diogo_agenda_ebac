@@ -15,8 +15,8 @@ form.addEventListener('submit', function(e) {
     const inputNome = document.getElementById('nome');
     const inputNumero = document.getElementById('numero');
 
-    if (nomes.includes(inputNome.value)) {
-        alert(`O contato ja foi inserido!`)
+    if (numeros.includes(inputNumero.value)) {
+        alert(`O numero ja foi inserido!`)
     } else {
     nomes.push(inputNome.value);
     numeros.push(inputNome.value);
