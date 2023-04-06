@@ -19,7 +19,7 @@ form.addEventListener('submit', function(e) {
         alert(`O numero ja foi inserido!`)
     } else {
     nomes.push(inputNome.value);
-    numeros.push(inputNome.value);
+    numeros.push(inputNumero.value);
 
     let linha = '<tr>';
     linha += `<td>${inputNome.value}</td>`;
